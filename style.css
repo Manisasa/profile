@@ -1,0 +1,159 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgba(32, 32, 32);
+    width: 100%;
+
+}
+
+.container {
+    background-color: rgba(32, 32, 32);
+    color: bisque;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+     background-color:rgb(32, 32, 32);
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 3;
+   
+    
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    padding: 10px;
+
+}
+
+li {
+    padding: 10px;
+}
+
+.mydata {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 130px;
+
+
+}
+
+.photo {
+    /* background-color: aqua; */
+    margin-left: 200px;
+    height: 400px;
+    width: 400px;
+    border-radius: 190px;
+
+}
+
+.name {
+    height: 400px;
+    width: 600px;
+
+}
+
+.name-1 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.name-2 {
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+
+}
+
+.name-3 {
+    text-indent: 30px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+
+}
+
+button {
+    all: unset;
+    border: 2px 2px 1px 1px solid;
+    border-color: rgba(0, 255, 255, 0.493);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 2px 2px 0px 02px rgba(137, 62, 207, 0.712);
+}
+
+.selfintro {
+    display: grid;
+    
+    grid-template-columns: 0fr 1fr 0fr 1fr ;
+    gap: 20px;
+     padding: 40px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-style: italic;
+
+}
+.self{
+    width: 150px;
+    height: 250px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+  text-align: justify;
+  text-indent: 30px;
+  
+}
+
+
+img {
+   padding: 10px;
+   gap: 20px;
+   
+
+}
+
+
+
+.what {
+    font-family: "Pacifico", cursive;
+    font-weight: 50px;
+    font-style: normal;
+    position: relative;
+    z-index: 1;
+    top: 2px;
+    left: 200px;
+    font-size: 50px;
+}
+
+
+p {
+    width: 500px;
+    
+}

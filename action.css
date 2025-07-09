@@ -1,0 +1,24 @@
+button:hover{
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    transform: scale(0.9);
+    box-shadow:  rgb(160, 204, 134);
+    background-color: rgba(133, 202, 202, 0.781);
+    color: black;
+
+}
+li:hover{
+    cursor: pointer;
+    color: white;
+    border-width: 0px 0px 1px 1px;
+    border-color: rgb(97, 131, 204);
+    border-style: solid;   
+    /* transition: all .5s ease-in-out; */
+    border-radius: 10px;
+    box-shadow: 0px  rgba(255, 255, 255, 0.74);
+}
+li::after{
+}
+button:active{
+    
+}
