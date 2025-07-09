@@ -15,7 +15,7 @@ li:hover{
     border-style: solid;   
     /* transition: all .5s ease-in-out; */
     border-radius: 10px;
-    box-shadow: 0px  rgba(255, 255, 255, 0.74);
+    box-shadow: 0px  rgba(255, 255, 255, 0.88);
 }
 li::after{
 }
